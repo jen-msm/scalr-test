@@ -11,3 +11,4 @@ resource "aws_instance" "scalr_instance" {
       Owner = "platform-developer-experience"
   }
 }
+ 
