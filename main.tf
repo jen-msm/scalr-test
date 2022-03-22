@@ -8,7 +8,7 @@ resource "aws_instance" "scalr_instance" {
 
   tags = {
       Name = "Scalr Example"
-      Owner = "platform-developer-experience"
+      owner = "platform-developer-experience"
   }
 }
  
