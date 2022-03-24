@@ -8,6 +8,7 @@ resource "aws_instance" "scalr_instance" {
 
   tags = {
       Name = "Scalr Example"
+      owner = "jen.ngo@moneysupermarket.com"
   }
 }
  
